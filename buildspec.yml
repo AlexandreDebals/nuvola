@@ -13,4 +13,8 @@ artifacts:
   files:
     - '**/*'
 
+files:
+  "/var/www/html":
+    mode: "000755" 
+
 

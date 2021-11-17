@@ -5,4 +5,9 @@ phases:
     commands:
       - echo coucou
 
+artifacts:
+  files:
+    - phpunit.xml.dist
+    - composer.json
+    - dump.sql
 

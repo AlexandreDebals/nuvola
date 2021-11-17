@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - composer install
-      - chmod -R 775 $CODEBUILD_SRC_DIR/dependency-check/bin/console      
+              
   build:
     commands:
       - echo coucou

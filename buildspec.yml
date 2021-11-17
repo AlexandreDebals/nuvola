@@ -7,7 +7,6 @@ phases:
 
 artifacts:
   files:
-    - phpunit.xml.dist
-    - composer.json
-    - dump.sql
+    - '**/*'
+
 
